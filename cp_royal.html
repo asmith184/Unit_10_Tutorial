@@ -7,8 +7,8 @@
       Tutorial Case
 
       Cinema Penguin Royal Wedding Page
-      Author: 
-      Date:   
+      Author: Aspen Smith
+      Date:   12-9-19
 
       Filename:   cp_royal.html
 
@@ -19,6 +19,8 @@
    <title>Cinema Penguin: Royal Wedding (1951)</title>
    <link href="cp_base.css" rel="stylesheet" />
    <link href="cp_styles.css" rel="stylesheet" />
+   <link href="cp_media.css" rel="stylesheet"/>
+   <link href="cp_animate.css" rel="stylesheet"/>
   
 </head>
 
@@ -96,7 +98,17 @@
             very well be his discovery of an 11-year-old singing sensation named 
             Frances Gumm, whom the world now knows better as Judy Garland.
          </p>          
-               
+         <p>
+            Click the play button below to hear the musical overature for Burton Lane's
+            <cite>Royal Wedding</cite>.
+         </p> 
+            <audio controls> 
+               <source src="cp_overture.mp3" type="audio/mp3"/>
+               <source src="cp_overture.ogg" type="audio/ogg"/>
+               <embed src="cp_overture.mp3" width="250" height="50" controller="yes" autoplay="no" showcontrols="yes" autostart="no"/>
+               <p><em>To play this audio clip, your browser needs to support HTML5</em></p>
+            </audio>
+              
       </aside>
             
       <aside>
@@ -110,6 +122,14 @@
             illusion of weightlessness.
          </p>    
      
+         <p>Click the play button to view this classic dance sequence</p>
+         <video controls poster="cp_photo2.png">
+            <source src="cp_dance.mp4" type="video/mp4"/>
+            <source src="cp_dance.webm" type="video/webm"/>
+            <track kind="captions" label="Dance Captions" src="cp_captions.vtt" default/>
+            <p><em>To play this video clip, your browser needs to support HTML5.</em></p>
+         </video>
+
       </aside> 
    </section>  
    
