@@ -30,7 +30,16 @@ video{
    width: 90%;
 }
 
-
 /* Track Styles */
 
+::cue{
+   background: rgba(0, 0, 0, .3);
+   color: orange;
+   font-size: 1.2em serif;
+}
+
+::cue(.Main){
+   text-shadow: black 3px 3px 0px;
+   font: 2.5em serif;
+}
 
